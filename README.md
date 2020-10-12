@@ -14,7 +14,12 @@
 
 ## Dossier Back
 ## contiens le necessaire pour la partie back
-copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
+Copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
+Dans le dossier ## config ## 
+vous trouverez un fichier database.js qui est a configurer pour un accés à la base de donnée Mysql
+Dans le dossier ## bdd ##
+Vous trouverez la base de donnée à importer pour l'application 
+
 ## Installation des modules :
 ### npm i 
 
@@ -23,7 +28,7 @@ copier le fichier exemple.env et renommé le en .env puis modifier l'interieur a
 
 ### Dossier Front
 ## contient le necessaire pour la partie front
-copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
+Copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
 ## Installation des modules :
 ### npm i 
 
