@@ -15,7 +15,7 @@ router.post(
     '/',
     (req, res) => {
         let token = req.body.token;
-        jwt.verify(token, 'monbeaupotager', (err, authenticationData) => {
+        jwt.verify(token, 'monbeausuivi', (err, authenticationData) => {
             if(err){
                 res.json({
                     succes: false,
