@@ -1,0 +1,23 @@
+REACT_APP_SERVER_PORT=3001
+REACT_APP_SERVER_ADDRESS=http://localhost:3001
+
+////POUR ENVOI DE MAIL
+EMAIL=monemail@gmail.com
+PASSWORD=monpassword
+
+////Connexion de donnée en local
+DB_HOST=localhost
+DB_USER=votre_utilisateur_base_de_donnée
+DB_PASS =votre_mot_de_pass_base_de_donnée
+DATABASE=suivi_de_culture
+
+////Connexion de donnée distante
+//DB_HOST=ip_du_serveur
+//DB_PORT=port (3307 OU 3306 pour mysql)
+//B_USER=votre_utilisateur_base_de_donnée
+//DB_PASS =votre_mot_de_pass_base_de_donnée
+//DATABASE=suivi_de_culture
+
+////Sécurisation
+SALT=$2a$10$.xS1.szbGAYY7Yxa022Mu.
+JWT_SECRET=monbeausuivi
