@@ -14,7 +14,7 @@
 
 ## Dossier Back
 ## contiens le necessaire pour la partie back
-copier le fichier exemple.env et renommé le en .env
+copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
 ## Installation des modules :
 ### npm i 
 
@@ -23,7 +23,7 @@ copier le fichier exemple.env et renommé le en .env
 
 ### Dossier Front
 ## contient le necessaire pour la partie front
-
+copier le fichier exemple.env et renommé le en .env puis modifier l'interieur avec vos informations.
 ## Installation des modules :
 ### npm i 
 
