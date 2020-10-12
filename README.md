@@ -3,28 +3,29 @@
 ## Une application de suivi, 
 
 ### Technologie utilisées : 
-le back
-### NodeJs ###
+## back
+### NodeJs 
 
-le front
-## React
-## Scss
+## front
+### React
+### Bootstrap
+### Scss
 
 
-### Dossier Back
+## Dossier Back
 ## contiens le necessaire pour la partie back
 copier le fichier exemple.env et renommé le en .env
 ## Installation des modules :
-#npm i 
+### npm i 
 
 ## Lancement du serveur
-#nodemon server
+### nodemon server
 
 ### Dossier Front
 ## contient le necessaire pour la partie front
 
 ## Installation des modules :
-#npm i 
+### npm i 
 
 ## Lancement du serveur
-#npm start
+### npm start
