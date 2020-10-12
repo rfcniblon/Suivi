@@ -1,1 +1,12 @@
-tfyf
+//Pour deploiement en localhost sur pc 
+REACT_APP_SERVER_ADDRESS=http://localhost:3001
+//Pour du distant
+
+//Pour deploiement en local sur serveur local
+//REACT_APP_SERVER_ADDRESS=http://ip_du_serveur_local:3001
+
+//Pour deploiement acces externe a décommenter lors du build
+//REACT_APP_SERVER_ADDRESS=http://ip_serveur_hebergé:3001
+
+//cache le code source
+GENERATE_SOURCEMAP=false
