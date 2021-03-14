@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
 const SERVER_ADDRESS = process.env.REACT_APP_SERVER_ADDRESS;
 
 class Login extends React.Component {
@@ -59,7 +57,6 @@ class Login extends React.Component {
     const { username, password } = this.state;
     return (
       <div className="">
-        <Navbar />
         <section className="container-fluid">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <form>
@@ -95,12 +92,20 @@ class Login extends React.Component {
                   Se connecter
                 </button>
               </div>
+              <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 txtcenter">
+                <button
+                  className="bt"
+                  type="button"
+                  onClick={this.handleFormNeed}
+                >
+                  Mot de pass perdu
+                </button>
+              </div>
             </form>
           </div>
         </section>
 
         <div className="footerbottom">
-          <Footer />
         </div>
       </div>
     );

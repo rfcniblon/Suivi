@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from "react-router-dom";
-import './components/Scss/style.css';
+// import './components/Scss/style.css';
 import Login from './components/Login/Login';
-import AdminPage from './components/Admin/Admi';
+import AdminPage from './components/Admin/AdminPage';
 import Admin from './components/Admin/Admin';
 
 
